@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="question" />
+        <module name="RestaurantManagementSystem" />
         <module name="Restaurant" />
       </profile>
     </annotationProcessing>
@@ -14,6 +15,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Restaurant" options="-parameters" />
+      <module name="RestaurantManagementSystem" options="-parameters" />
       <module name="question" options="-parameters" />
     </option>
   </component>
