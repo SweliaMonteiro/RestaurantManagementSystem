@@ -61,28 +61,28 @@ You are building a Restaurant Management System. As a part of this system, you n
 4. We need to implement the payment gateways integration in such a way that it should be very easy for us to migrate from 1 gateway to another.
 
 ### Manage Wait List
-#### Add Customer to Wait List
+#### a) Add Customer to Wait List
 1. This functionality will be used by customers.
 2. A customer should be already registered with the restaurant (i.e. their details should be present in the database) before they can add themselves to the wait list.
 3. If a customer is not registered with the restaurant, they should get an error message saying "User not found".
 4. Once a customer is added to the wait list, we should return their position in the wait list in the response.
 5. If a customer is already present in the wait list, we should return their position in the wait list in the response.
 
-#### Remove Customer from Wait List
+#### b) Remove Customer from Wait List
 1. This functionality will be used by customers.
 2. A customer should be already registered with the restaurant (i.e. their details should be present in the database) before they can remove themselves from the wait list.
 3. If a customer is not registered with the restaurant, they should get an error message saying "User not found".
 4. If a customer is not present in the wait list, they should get an error message saying "User not in wait list".
 5. If a customer is present in the wait list, we should remove them from the wait list.
 
-#### Get Wait List position of a Customer
+#### c) Get Wait List position of a Customer
 1. This functionality will be used by customers.
 2. A customer should be already registered with the restaurant (i.e. their details should be present in the database) before they can get their position in the wait list.
 3. If a customer is not registered with the restaurant, they should get an error message saying "User not found".
 4. If a customer is not present in the wait list, they should get -1 as their position in the wait list.
 5. If a customer is present in the wait list, they should get their position in the wait list.
 
-#### Remove Customers from Wait List by Restaurant Admin
+#### d) Remove Customers from Wait List by Restaurant Admin
 1. This functionality should be accessible by restaurant admin.
 2. If a customer tries to access this functionality, they should get an error message saying "Access Denied".
 3. The restaurant admin should be already registered with the restaurant (i.e. their details should be present in the database) before they can remove customers from the wait list.
